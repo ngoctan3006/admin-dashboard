@@ -2932,7 +2932,7 @@ export const stackedPrimaryXAxis = {
 
 export const stackedPrimaryYAxis = {
   lineStyle: { width: 0 },
-  minimum: 100,
+  minimum: 0,
   maximum: 400,
   interval: 100,
   majorTickLines: { width: 0 },
