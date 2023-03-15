@@ -39,7 +39,7 @@ module.exports = {
         590: '590px',
       },
       backgroundImage: {
-        'hero-pattern': "url('/Rectangle-4389.png')",
+        'hero-pattern': "url('/bg.svg')",
       },
     },
   },
