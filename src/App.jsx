@@ -4,6 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Navbar, Sidebar } from './components';
+import { useStateContext } from './contexts/ContextProvider';
 import {
   Area,
   Bar,
@@ -24,7 +25,7 @@ import {
 } from './pages';
 
 const App = () => {
-  const activeMenu = true;
+  const { activeMenu } = useStateContext();
 
   return (
     <div>
